@@ -14,7 +14,7 @@ const Home: NextPage = () => {
   // DEVICE: MOBILE vs PC ligini aniqlab beradi va uni barcha komponentlarimizda ishlata olamiz
   const device = useDeviceDetect();
 
-  const {
+  const { // frondenddan backendga malumot olib kelish uchun apollo useQuery ishlatildi
     loading: getPropertiesLoading,
     data: getPropertiesData,
     error: getPropertiesError,

@@ -17,8 +17,8 @@ export default function App({ Component, pageProps }: AppProps) {
   const [ theme, setTheme ] = useState(createTheme(light));
 
   // SocketIO, Redux, MUI, Apollo Client ...
-  return (
-    <ApolloProvider client={client}>
+  return ( // APOLLO CLIENT butun loyiha uchun ochildi
+    <ApolloProvider client={client}> 
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <Component {...pageProps} />

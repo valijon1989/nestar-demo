@@ -4,7 +4,7 @@ import { gql } from "@apollo/client";
  *          PROPERTY              *
 ***********************************/
 
-
+// Jami gpql so'rovlar shu yerda bo'ladi
 
 export const GET_PROPERTIES = gql`
     query GetProperties($input: PropertiesInquiry!) {
@@ -79,3 +79,4 @@ export const GET_PROPERTIES = gql`
 /**********************************
  *           ARTICLE              *
 ***********************************/
+// Jami gpql so'rovlar shu yerda bo'ladi
