@@ -6,11 +6,11 @@ import { useState } from "react";
 import { ApolloProvider } from "@apollo/client";
 import client from "@/apollo/client";
 // @ts-ignore
-import "../scss/app.scss";
+import "../scss/app.scss"; // GLOBAL STYLES
 // @ts-ignore
-import "../scss/pc/main.scss";
+import "../scss/pc/main.scss"; // PC MAIN STYLES
 // @ts-ignore
-import "../scss/mobile/main.scss";
+import "../scss/mobile/main.scss"; // MOBILE MAIN STYLES
 
 export default function App({ Component, pageProps }: AppProps) {
   // @ts-ignore

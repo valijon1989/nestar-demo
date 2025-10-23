@@ -6,7 +6,7 @@ import { NextPage } from "next";
 const CS: NextPage = () => {
     const device = useDeviceDetect();
 
-    if (device === "mobile") { // mobiledan kelsa shunaqa layout chiqadi
+    if (device === "mobile") { // mobiledan kelsa shunaqa layout chiqadi boshqa xollarda ishlamaydi
         return <Stack>CS LIST MOBILE</Stack>
     } else {
         return (
